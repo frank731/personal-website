@@ -1,0 +1,72 @@
+[
+    {
+        "title": "tab grabber",
+        "href": "https://github.com/frank731/tab-grabber",
+        "desc": "a tool that creates sheet music from videos with them, removing the need to constantly pause to practice.",
+        "techStack": "made with python and opencv",
+        "image": "./tabgrab.jpg"
+    },
+    {
+        "title": "the deal finder",
+        "href": "https://github.com/frank731/the-deal-finder",
+        "desc": "a website that finds the best deals on products from a number of vendors",
+        "techStack": "made with react, flask, python, selenium, and mongodb",
+        "image": "./dealfinder.png"
+    },
+    {
+        "title": "idling-a-song",
+        "href": "https://frank731.itch.io/idling-a-song",
+        "desc": "an idle game about building a song. winner of the student summer game jam.",
+        "techStack": "made with unity and c#",
+        "image": "./idlingasong.png"
+    },
+    {
+        "title": "walking trainer",
+        "href": "https://github.com/frank731/walking-trainer",
+        "desc": "an simulation of stickmen learning to walk using ai.",
+        "techStack": "made with unity and c#",
+        "image": "./walkingtrainer.png"
+    },
+    {
+        "title": "infinite",
+        "href": "https://devpost.com/software/infinite-h4mlzo",
+        "desc": "a website that turns your motivatational quotes into poster nfts. winner of best of use of deso at hero hacks ii",
+        "techStack": "made with react, python, flask, and deso",
+        "image": "./infinite.png"
+    },
+    {
+        "title": "gazeguide",
+        "href": "https://devpost.com/software/gazeguide",
+        "desc": "a tool utilizing eye-tracking glasses to help you maintain eye contact during a conversation. made for hack the north 2023",
+        "techStack": "made with python and adhawk's eye tracking glasses",
+        "image": "./gazeguide.jpg"
+    },
+    {
+        "title": "scraballs",
+        "href": "https://devpost.com/software/scraballs",
+        "desc": "a vr word game ultilizing eye tracking as one of its main mechanics. made for hack the north 2022",
+        "techStack": "made with unity, c#, and adhawk's eye tracking vr headsets",
+        "image": "./scraballs.jpg"
+    },
+    {
+        "title": "finger dance!",
+        "href": "https://devpost.com/software/osu",
+        "desc": "a rhythm game utilizing finger tracking as its main control system. made for hack the north 2021",
+        "techStack": "made with unity and c#",
+        "image": "./fingerdance.png"
+    },
+    {
+        "title": "workplace woes",
+        "href": "https://frank731.itch.io/workplace-woes",
+        "desc": "a resource management game about playing games during work. made for mini jam 93",
+        "techStack": "made with unity, c#, and blender",
+        "image": "./workplacewoes.png"
+    },
+    {
+        "title": "crossy road",
+        "href": "https://github.com/frank731/Crossy-Road",
+        "desc": "a crossy road spinoff with different characters and mechanics",
+        "techStack": "made with unity and c#",
+        "image": "./crossyroad.png"
+    }
+]

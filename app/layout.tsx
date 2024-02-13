@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import { IBM_Plex_Mono } from 'next/font/google'
+import { VT323 } from 'next/font/google'
 import './globals.css'
 
-const ibm_plex_mono = IBM_Plex_Mono({subsets: ['latin'], weight: '500'})
+const vt323 = VT323({subsets: ['latin'], weight: '400', variable: '--font-vt323',})
 
 export const metadata: Metadata = {
   title: 'Frank Li',
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={ibm_plex_mono.className}>{children}</body>
+      <body className={vt323.className}>{children}</body>
     </html>
   )
 }

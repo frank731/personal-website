@@ -1,0 +1,17 @@
+[
+    {   
+        "company": "enrich software corp.",
+        "title": "junior developer intern\njuly 2022 - june 2023",
+        "desc": "converted ibm green screen app to web app using presto to create html elements and used javascript with jquery to add interactivity along with css\nused jira to organize task division and streamline the peer review and qa process, and added 200+ new screen features and completed 150+ peer reviews\ncreated global features such as a system to prevent text overflow into other input fields, along with custom classes for scalable and adaptable data display using javascript.\ncreated 30+ regex expressions to efficiently query and format data for system compatibility."
+    },
+    {
+        "company": "university of alberta",
+        "title": "high school computing science intern\njuly 2021 - august 2021",
+        "desc": "worked with a professor of computing science and another intern to develop a tool to help students learn about data structures and algorithms.\ncreated a website using javascript and bootstrap to display and modulate the user’s progress on kattis that has been scraped using a python script with beautiful soup.\nmade http api requests with error handling to relay user credentials and authorize data collection.\nutilized the google sheets api and apps script to increase the efficiency of generating files readable by the application by 1000%."
+    },
+    {
+        "company": "university of alberta aerial robotics group",
+        "title": "imaging team member\nnovember 2021 - august 2022",
+        "desc": "helped create the ground and onboard software for a plane made for the ausvi suas competition.\nadded features like movable obstacle markers using c++, python and qt5 on a linux environment.\nfixed bitbucket and docker deployment pipeline, allowing for setup and unit tests to be run properly.\nset up flask endpoint for ausvi data to be usable and set up unit tests for server data using python."
+    }
+]
