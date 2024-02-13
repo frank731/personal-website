@@ -30,7 +30,7 @@ export default function Project({title, href, image, desc, techStack, show, noAn
                 <div className="grow max-h-[50vh]">
                     <img hidden={activeIndex < 3} src={image} className="rounded-lg shadow-xl h-full w-auto"/>
                 </div>
-                <LinkAnim animProps={{text:'project link', show:activeIndex >= 3, noAnim:noAnim}} href={href}/>
+                <LinkAnim animProps={{text:'project link', show:activeIndex >= 3, noAnim:noAnim}} href={href} newPage={true}/>
             </div>
         )
     }

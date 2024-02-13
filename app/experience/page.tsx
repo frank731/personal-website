@@ -33,7 +33,7 @@ export default function Experience() {
 
   useEffect(() => {
     if(sessionStorage.getItem(loadedKey) != null){
-      setLoaded(sessionStorage.getItem(loadedKey)!.split(","));
+      setLoaded(sessionStorage.getItem(loadedKey)!.split(",").map(Number));
     }
     sessionStorage.setItem(loadedKey, loaded.toString());
     addEventListener('beforeunload', handleBeforeUnload);
