@@ -50,18 +50,18 @@ export default function Projects() {
       };
     }, []);
     
+    const projects = projectData.map((project, index) => {
+      return(
+        <Project key={project.title} noAnim={loaded[index]} show={visibleIndex == index} title={project.title} href={project.href} desc={project.desc} techStack={project.techStack} image={project.image}/>
+      )
+    });
+
     if(fullyLoaded){
       return (
         <main className="flex flex-col h-screen ml-10 py-5">
           <LinkA href="/" text="back" className=""/>
           <div className="grow flex flex-col justify-self-center justify-items-start justify-center place-items-start gap-y-4 py-2">
-            {
-              projectData.map((project, index) => {
-                return(
-                  <Project noAnim={loaded[index]} show={visibleIndex == index} title={project.title} href={project.href} desc={project.desc} techStack={project.techStack} image={project.image}/>
-                )
-              })
-            }
+            {projects}
           </div>
           <div className="bottom-5 left-10 flex flex-col place-items-start gap-y-1 py-4">
             <ButtonA onClick={decrementIndex} active={visibleIndex != 0} text="prev project"/>

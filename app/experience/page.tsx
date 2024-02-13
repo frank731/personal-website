@@ -42,17 +42,18 @@ export default function Experience() {
     };
   }, []);
 
+  const jobs = 
+    experienceData.map((experience, index) => {
+      return(
+        <Job key={experience.company} company={experience.company} onClick={() => setActiveJobWrap(index + 1)} textProps={{title: experience.title, desc: experience.desc, show: activeJob == index + 1, noAnim: loaded[index + 1]}}/>
+      )
+    });
+  
   return (
     <main className="flex flex-col h-screen ml-10 py-5">
         <LinkA href="/" text="back" className=""/>
         <div className='grow align-start justify-center gap-y-4 flex flex-col'>
-          {
-            experienceData.map((experience, index) => {
-              return(
-                <Job company={experience.company} onClick={() => setActiveJobWrap(index + 1)} textProps={{title: experience.title, desc: experience.desc, show: activeJob == index + 1, noAnim: loaded[index + 1]}}/>
-              )
-            })
-          }
+          {jobs}
         </div>
       </main>
   )
