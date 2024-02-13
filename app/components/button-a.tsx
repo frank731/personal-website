@@ -1,5 +1,3 @@
-import TypeAnimOrder, { TypeAnimProps } from "./type-anim-order";
-
 type ButtonProps = {
     text: string;
     className?: string;

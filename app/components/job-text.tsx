@@ -1,5 +1,4 @@
 import TypeAnimOrder from "./type-anim-order";
-import LinkAnim from "./link-anim";
 import { useEffect, useState } from "react";
 
 export type JobTextProps = {

@@ -1,14 +1,14 @@
 'use client'
 
 import { createRef } from 'react';
-import { TypeAnimation, Speed } from 'react-type-animation';
+import { TypeAnimation } from 'react-type-animation';
 
 export type TypeAnimProps = {
     text: string;
     show?: boolean;
     noAnim?: boolean;
     waitAfter?: boolean;
-    speed?: Speed;
+    speed?: undefined;
     className?: string;
     showNext?: () => void;
 }

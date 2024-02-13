@@ -1,6 +1,6 @@
 'use client'
 
-import { useContext, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import LinkAnim from './components/link-anim';
 import TypeAnimOrder from './components/type-anim-order'
