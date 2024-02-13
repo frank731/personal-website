@@ -32,7 +32,7 @@ export default function Home() {
   }, []);
  
   return (
-    <main className="ml-10 flex min-h-screen flex-col justify-items-start justify-center gap-y-4">
+    <main className="ml-10 mr-5 flex min-h-screen flex-col justify-items-start justify-center gap-y-4">
       <TypeAnimOrder className='text-7xl' text="hi, i'm frank!" show={true} showNext={setNextActive} noAnim={activeIndex >= 1}/>
       <div className='flex flex-col'>
         <TypeAnimOrder className='text-gray-500 text-3xl' text="i'm a first-year computer engineering student at the university of waterloo" show={activeIndex >= 1} showNext={setNextActive} noAnim={activeIndex >= 2} waitAfter={false}/>

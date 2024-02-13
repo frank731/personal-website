@@ -50,7 +50,7 @@ export default function Experience() {
     });
   
   return (
-    <main className="flex flex-col h-screen ml-10 py-5">
+    <main className="flex flex-col h-screen ml-10 mr-5 py-5">
         <LinkA href="/" text="back" className=""/>
         <div className='grow align-start justify-center gap-y-4 flex flex-col'>
           {jobs}
