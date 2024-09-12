@@ -1,8 +1,13 @@
 [
+    {
+        "company": "drivewyze",
+        "title": "qa analyst\nmay 2024 - august 2024",
+        "desc": "designed test automation framework for ios app using python and appium, and automated 75+ tests. finished project 1-2 months ahead of schedule and saved 20+ hours of manual testing per regression cycle.\nled api automated testing project, spoke with stakeholders to identify key goals and existing issues, fixed broken tests and added comprehensive test coverage using databricks queries with sql, set up qtest to manage and autorun test suites, and increased overall regression suite stability by over 50%.\nbuilt tool to scrape tests from an automated test case collection using ast and add/update their respective tests in qtest using their api, speeding up test import and maintenance time by over 10×.\nwon 2nd audience pick in company-wide hackathon, designed system to group, label, and find similarities between jira tickets to improve management and reduce duplicates using bertopic and all-minilm."
+    },
     {   
         "company": "enrich software corp.",
         "title": "junior developer intern\njuly 2022 - june 2023",
-        "desc": "converted ibm green screen app to web app using presto to create html elements and used javascript with jquery to add interactivity along with css\nused jira to organize task division and streamline the peer review and qa process, and added 200+ new screen features and completed 150+ peer reviews\ncreated global features such as a system to prevent text overflow into other input fields, along with custom classes for scalable and adaptable data display using javascript.\ncreated 30+ regex expressions to efficiently query and format data for system compatibility."
+        "desc": "converted an ibm i green screen app to website using presto along with html, css, and javascript.\nconverted 200+ screens into web pages and completed 150+ peer reviews for pages/other features.\nadded features such as a system to prevent text overflow into other input fields and custom classes for scalable and adaptable data display methods, reducing time spent manually adjusting sizes by over 5×.\nmade 30+ regex expressions with jquery to efficiently query and format data for system compatibility."
     },
     {
         "company": "university of alberta",

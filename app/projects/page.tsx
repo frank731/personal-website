@@ -36,7 +36,6 @@ export default function Projects() {
     
     const handleBeforeUnload = (event : Event) => {
       sessionStorage.clear();
-      console.log("cleared");
     };
 
     useEffect(() => {
@@ -56,7 +55,7 @@ export default function Projects() {
         <Project key={project.title} noAnim={loaded[index]} show={visibleIndex == index} title={project.title} href={project.href} desc={project.desc} techStack={project.techStack} image={project.image}/>
       )
     });
-    console.log(loaded);
+    
     if(fullyLoaded){
       return (
         <main className="flex flex-col h-screen ml-10 mr-5 py-5">

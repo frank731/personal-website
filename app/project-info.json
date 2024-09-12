@@ -1,5 +1,11 @@
 [
     {
+        "title": "tune tutor",
+        "href": "https://github.com/frank731/tune-tutor",
+        "desc": "a wip app that helps you learn songs as you play along with them in real-time.",
+        "techStack": "made with python, librosa, tensorflow, and qt"
+    },
+    {
         "title": "tab grabber",
         "href": "https://github.com/frank731/tab-grabber",
         "desc": "a tool that creates sheet music from videos with them, removing the need to constantly pause to practice.",
