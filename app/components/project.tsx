@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 type ProjectProps = {
     title: string;
     href: string;
-    image: string;
+    image: string | undefined;
     desc: string;
     techStack: string;
     show: boolean;
